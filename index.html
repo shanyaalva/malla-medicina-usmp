@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Malla Curricular Interactiva - Medicina Humana USMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Malla Curricular Interactiva</h1>
+        <h2>Medicina Humana USMP - Plan 2025</h2>
+        <p>Creado por Shanya Alva</p>
+    </header>
+    <main>
+        <section class="ciclo" id="ciclo-1">
+            <h3>Ciclo I</h3>
+            <div class="curso" onclick="mostrarDetalles('biologia')">Introducción a la Biología</div>
+            <div class="curso" onclick="mostrarDetalles('comunicacion')">Introducción a la Comunicación</div>
+            <div class="curso" onclick="mostrarDetalles('fisica')">Introducción a la Física General</div>
+        </section>
+
+        <section id="detalles" class="detalles oculto">
+            <h4 id="nombre-curso">Nombre del Curso</h4>
+            <ul id="info-curso"></ul>
+            <button onclick="cerrarDetalles()">Cerrar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
