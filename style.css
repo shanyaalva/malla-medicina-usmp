@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background: #f2f2f2;
+  color: #333;
+}
+
+h1 {
+  color: #00509e;
+}
+
+.ciclo {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #d9eefe;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #b8dcf9;
+}
+
+.detalle {
+  margin-top: 20px;
+  background-color: #fff8dc;
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+}
