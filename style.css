@@ -1,0 +1,78 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f2fb;
+  margin: 0;
+  padding: 0;
+  color: #3e3e3e;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background: #f3e8ff;
+}
+h1 {
+  color: #3b2066;
+}
+.icons {
+  font-size: 1.5em;
+}
+#frase-motivacional {
+  background: #eceaff;
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 12px;
+  font-style: italic;
+}
+.barra-progreso {
+  margin: 10px auto;
+  width: 80%;
+}
+.progreso {
+  height: 10px;
+  background: #dcdcdc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.relleno {
+  height: 100%;
+  background: linear-gradient(90deg, #a8edea, #fed6e3);
+  transition: width 0.5s ease;
+}
+main {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.ciclo, .electivos {
+  background: #e0c7ff;
+  padding: 20px;
+  border-radius: 25px;
+  width: 300px;
+}
+.ciclo h2, .electivos h2 {
+  text-align: center;
+  color: #fff;
+  background: #9c6ade;
+  padding: 10px;
+  border-radius: 15px;
+}
+.curso {
+  background: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #999;
+  margin: 20px;
+}
